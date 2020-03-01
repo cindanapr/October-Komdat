@@ -1,4 +1,4 @@
-![Teeworldss](https://raw.githubusercontent.com/cindanapr/Teeworld-Komdat/master/header.jpg)
+![Teeworldss](https://raw.githubusercontent.com/cindanapr/Teeworld-Komdat/master/teeworlds.jpg)
 
 
 Teeworlds ![GitHub Actions](https://github.com/teeworlds/teeworlds/workflows/Build/badge.svg)
