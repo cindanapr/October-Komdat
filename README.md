@@ -1,6 +1,5 @@
-<a href="https://repology.org/metapackage/teeworlds/versions">
-    <img src="https://repology.org/badge/vertical-allrepos/teeworlds.svg" alt="Packaging status" align="right">
-</a>
+![Teeworldss](https://raw.githubusercontent.com/cindanapr/Teeworld-Komdat/master/header.jpg)
+
 
 Teeworlds ![GitHub Actions](https://github.com/teeworlds/teeworlds/workflows/Build/badge.svg)
 =========
