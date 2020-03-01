@@ -4,23 +4,16 @@
 Teeworlds ![GitHub Actions](https://github.com/teeworlds/teeworlds/workflows/Build/badge.svg)
 =========
 
-A retro multiplayer shooter
+A retro multiplayer shooter 
 ---------------------------
 
-Teeworlds is a free online multiplayer game, available for all major
-operating systems. Battle with up to 16 players in a variety of game
-modes, including Team Deathmatch and Capture The Flag. You can even
-design your own maps!
+Teeworlds adalah game multiplayer online gratis, tersedia untuk semua sistem operasi utama. Bertarung dengan hingga 16 pemain dalam berbagai mode permainan, termasuk Team Deathmatch dan Capture The Flag. Anda bahkan dapat mendesain peta Anda sendiri!
 
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software. See license.txt for full license
-text including copyright information.
+Perangkat lunak ini disediakan 'sebagaimana adanya', tanpa jaminan tersurat maupun tersirat. Dalam hal apa pun penulis tidak akan bertanggung jawab atas segala kerusakan yang timbul dari penggunaan perangkat lunak ini. Lihat lisensi.txt untuk teks lisensi lengkap termasuk informasi hak cipta.
 
-Please visit https://www.teeworlds.com/ for up-to-date information about
-the game, including new versions, custom maps and much more.
+Silakan kunjungi https://www.teeworlds.com/ untuk informasi terkini tentang permainan, termasuk versi baru, peta khusus dan banyak lagi.
 
-Originally written by Magnus Auvinen.
+Awalnya ditulis oleh Magnus Auvinen.
 
 
 Building on Linux or macOS
