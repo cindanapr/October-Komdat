@@ -169,8 +169,8 @@ Tujuan dalam permainan adalah untuk mendapatkan massa dan tumbuh lebih besar den
 
 ## Referensi
 [`^ kembali ke atas ^`](#Game-Teeworlds)
-- [Github Auriza] (https://github.com/auriza/komdat-lab) - 
-- [Agar.io Clone](https://github.com/teeworlds/teeworlds) - ``Teeworlds`` *Clone* untuk Instalasi
-- [How to Play](https://github.com/huytd/agar.io-clone/wiki/How-to-Play) - Aturan Permainan ``Agar.io``
+- [Github Auriza](https://github.com/auriza/komdat-lab) - 
+- [Teewordls](https://github.com/teeworlds/teeworlds) - ``Teeworlds`` *Clone* untuk Instalasi
+- [How to Play](https://github.com/huytd/agar.io-clone/wiki/How-to-Play) - Aturan Permainan ``Teeworlds``
 
 
