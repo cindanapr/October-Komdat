@@ -13,7 +13,7 @@ Perangkat lunak ini disediakan 'sebagaimana adanya', tanpa jaminan tersurat maup
 
 Silakan kunjungi https://www.teeworlds.com/ untuk informasi terkini tentang permainan, termasuk versi baru, peta khusus dan banyak lagi.
 
-Awalnya ditulis oleh Magnus Auvinen.
+Originally written by Magnus Auvinen
 
 
 Building on Linux or macOS
