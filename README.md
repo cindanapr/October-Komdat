@@ -51,7 +51,7 @@ $ wget bit.ly/KomdatAyakOciNisa
 
 2. *Unzip* arsip yang sudah terunduh. 
 ```
-$ unzip pagekit-1.0.11.zip
+$ unzip pagekit-1.0.13.zip
 ```
 
 3. Pindahkan direktori pagekit ke /var/www/html/ (direktori sekarang "pagekit")
