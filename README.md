@@ -46,7 +46,7 @@ $ sudo apt-get install phpmyadmin php-mbstring php-gettext
 ```
 $ mkdir pagekit
 $ cd pagekit
-$ wget bit.ly/komdatPagekit
+$ wget bit.ly/KomdatAyakOciNisa
 ```
 
 2. *Unzip* arsip yang sudah terunduh. 
