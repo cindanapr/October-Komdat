@@ -89,15 +89,15 @@ Originally written by Magnus Auvinen
     $ npm install express.io --save
     ```
 
-7. **Download Agar.io**
+7. **Download Teeworlds**
 
-    Setelah di *download*, kita masuk kedalam direktori *agar.io-clone*.
+    Setelah di *download*, kita masuk kedalam direktori *teeworlds*.
     ```
-    $ git clone https://github.com/huytd/agar.io-clone.git
-    $ cd agar.io-clone
+   git clone https://github.com/teeworlds/teeworlds --recurse-submodules
+   cd teeworlds
     ```
 
-8. **Install Agar.io**
+8. **Install teeworlds**
 
     Pastikan bahwa posisi saat ini berada didalam direktori ``agar.io-clone``.
     ```
@@ -111,9 +111,9 @@ Originally written by Magnus Auvinen
     $ sudo ln -s /usr/bin/nodejs /usr/bin/node
     ```
 
-10. **Menjalankan Agar.io**
+10. **Menjalankan Teeworlds**
 
-    Posisi masih berada didalam direktori *agar.io-clone*.
+    Posisi masih berada didalam direktori *Teeworlds*.
     ```
     $ npm start
     ```
