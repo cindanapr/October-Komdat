@@ -96,7 +96,7 @@ Klik tombol administrator. Masukkan identitas untuk admin: nama, password, dan y
 
 Klik tombol advanced. Masukkan URL untuk mengakses sistem admin.
 
-![GitHub Logo](/advance.PNG)
+![GitHub Logo](/AdvanceOctober.png)
 
 	- Selesai! (Tampilan halaman *admin*)
 
