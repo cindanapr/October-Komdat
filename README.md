@@ -88,15 +88,15 @@ GRANT ALL PRIVILEGES ON october.* TO october;
 Masuk ke browser dan ketikkan alamat localhost:8000/install.php
 Atur database dan arahkan ke database yang telah dibuat sebelumnya.
 
-![GitHub Logo](/images/database.jpg)
+![GitHub Logo](/database.jpg)
 
 Klik tombol administrator. Masukkan identitas untuk admin: nama, password, dan yang lainnya
 
-![GitHub Logo](/images/administrator.jpg)
+![GitHub Logo](/administrator.jpg)
 
 Klik tombol advanced. Masukkan URL untuk mengakses sistem admin.
 
-![GitHub Logo](/images/advance.PNG)
+![GitHub Logo](/advance.PNG)
 
 	- Selesai! (Tampilan halaman *admin*)
 
