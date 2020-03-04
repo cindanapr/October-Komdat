@@ -51,7 +51,7 @@ sudo apt-get install php7.0-zip
 sudo apt-get install php7.0-gd
 ```
 
-#### Cara instalasi
+#### Cara instalasi October-CSM
 1. Download installation file pada halaman http://octobercms.com/download
 ```shell
 sudo wget http://octobercms.com/download
