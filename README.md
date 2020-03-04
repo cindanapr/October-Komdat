@@ -25,28 +25,28 @@ sudo service apache2 restart
 ```  
 
 - Instal package yang dibutuhkan untuk menginstall **October CMS**
-##### PDO PHP Extension
+1. PDO PHP Extension
 ```shell
 sudo apt-get install php7.0-mysql
 ```  
 
 
-- cURL PHP Extension
+2. cURL PHP Extension
 ```shell
 sudo apt-get install php7.0-curl
 ```  
 
 
-- Mbstring PHP Library
+3. Mbstring PHP Library
 ```shell
 sudo apt-get install php7.0-mbstring
 ```
 
-- ZipArchive PHP Library
+4. ZipArchive PHP Library
 ```shell
 sudo apt-get install php7.0-zip
 ```
-- GD PHP Library 
+5. GD PHP Library 
 ```shell
 sudo apt-get install php7.0-gd
 ```
