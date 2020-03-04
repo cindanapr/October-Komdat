@@ -1,7 +1,7 @@
 # OctoberCMS
 ![aplikasi-october](https://raw.githubusercontent.com/cindanapr/october-Komdat/master/october.png)
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) |[Fitur-fitur](#Fitur-fitur yang ada di october-csm) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) |[Fitur-fitur](#Fitur-fitur) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Sekilas Tentang 
@@ -128,7 +128,7 @@ $ sudo nano /etc/apache2/apache2.conf
 ```
 Kemudian simpan (ctrl+o) dan keluar (ctrl+x)
 	
-## Fitur-fitur yang ada di october-csm
+## Fitur-fitur
 [`^ kembali ke atas ^`](#aplikasi-october)
 
 1. Page Components
