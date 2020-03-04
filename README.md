@@ -32,7 +32,7 @@ sudo service apache2 restart
     
       ![1](/name.jpeg)
       
-    - *Memory Size (RAM)* cukup 8 MB, lalu klik *Use an Existing VH* dan pilih file *ubuntu-server.vdi*. *(Ubuntu Server dapat didownload [disini](https://ubuntu.com/download/server))*, klik *Create*.
+    - *Memory Size (RAM)* cukup 10 GB, lalu klik *Use an Existing VH* dan pilih file *ubuntu-server.vdi*. *(Ubuntu Server dapat didownload [disini](https://ubuntu.com/download/server))*, klik *Create*.
     
       ![2](/hardisk.jpeg)
       
@@ -173,6 +173,7 @@ Kemudian simpan (ctrl+o) dan keluar (ctrl+x)
 	
 ## Pembahasan
 [`^ kembali ke atas ^`](#aplikasi-october)
+
   -KELEBIHAN\
 1. Di October CMS sudah tersedia beberapa komponen yang sudah siap kamu gunakan untuk membangun page. 
 2. Plugin yang sederhana
