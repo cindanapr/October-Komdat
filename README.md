@@ -2,7 +2,6 @@
 ![aplikasi-october](https://raw.githubusercontent.com/cindanapr/october-Komdat/master/october.png)
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) |[Fitur-fitur](#Fitur-fitur yang ada di october-csm) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) |[#Fitur-fitur(#) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Sekilas Tentang 
