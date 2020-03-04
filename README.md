@@ -1,16 +1,16 @@
 # Aplikasi Web "October-CMS"
-<h1 align="center"><img src="https://pagekit.com/storage/pagekit-logo.svg" width="500px"></h1>
+![aplikasi-october](https://raw.githubusercontent.com/cindanapr/october-Komdat/master/october.PNG
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Sekilas Tentang 
-[`^ kembali ke atas ^`](#aplikasi-web-pagekit)
+[`^ kembali ke atas ^`](#aplikasi-october)
 
 PageKit merupakan aplikasi *web content management system*. PageKit digunakan untuk mempermudah pengguna dalam membangun situs web. Pagekit adalah CMS modular dan ringan yang dibangun dengan teknologi modern. Dengan market share kurang dari 0.1% dan 1,465 *website* yang aktif menggunakan CMS ini, menjadikan Pagekit sebagai salah satu CMS untuk *blogging* terpopuler di dunia, tepatnya berada di posisi ke-9 setelah Posthaven. PageKit memiliki beberapa fitur, di antaranya, menyediakan pengaturan untuk membuat halaman baru (contoh: membuat halaman untuk *blog*, mengorganisasi *file*, dan personalisasi *web*).
 
 ## Instalasi
-[`^ kembali ke atas ^`](#aplikasi-web-pagekit)
+[`^ kembali ke atas ^`](#aplikasi-october)
 
 #### Kebutuhan
 - Apache 2.2+ atau Nginx
@@ -66,7 +66,7 @@ $ sudo mv ../pagekit/ /var/www/html/
 	- Selesai! (Tampilan halaman *admin*)
 
 ## Konfigurasi
-[`^ kembali ke atas ^`](#aplikasi-web-pagekit)
+[`^ kembali ke atas ^`](#aplikasi-october)
 Pastikan pada konfigurasi Apache, module ``` mod_rewrite ``` sudah dalam keadaan diaktifkan. Untuk melihat module mana yang sudah aktif, ketikkan perintah ``` apache2ctl -M ```. Jika belum ada di list, ketikkan perintah ``` sudo a2enmod rewrite ``` pada terminal kemudian restart apache dengan mengetikkan perintah ``` sudo service apache2 restart ```.
 
 Selanjutnya, cek juga file konfigurasi apache2.conf yang terletak di ``` /etc/apache2/ ```.
@@ -94,7 +94,7 @@ $ sudo nano /etc/apache2/apache2.conf
 Kemudian simpan (ctrl+o) dan keluar (ctrl+x)
 	
 ## Maintenance
-[`^ kembali ke atas ^`](#aplikasi-web-pagekit)
+[`^ kembali ke atas ^`](#aplikasi-october)
 
 PageKit menyediakan fitur *maintenance* apabila admin web ingin melakukan perbaikan pada situs. 
 1. Pada halaman *dashboard* admin (http://URL/admin/dashboard), klik tombol *hamburger* di pojok kiri atas, kemudian pilih ikon *Site*
@@ -103,7 +103,7 @@ PageKit menyediakan fitur *maintenance* apabila admin web ingin melakukan perbai
 4. Terakhir, tekan tombol *Save* kemudian coba akses kembali situsnya (dalam keadaan tidak *login* sebagai admin).
 
 ## Cara Pemakaian
-[`^ kembali ke atas ^`](#aplikasi-web-pagekit)
+[`^ kembali ke atas ^`](#aplikasi-october)
 
 1. Tampilan aplikasi web
 	1. Tampilan utama (*default*)
@@ -164,7 +164,7 @@ PageKit menyediakan fitur *maintenance* apabila admin web ingin melakukan perbai
 
 
 ## Pembahasan
-[`^ kembali ke atas ^`](#aplikasi-web-pagekit)
+[`^ kembali ke atas ^`](#aplikasi-october)
 
 Aplikasi web PageKit merupakan CMS yang bisa dikatakan baru, namun memiliki beberapa fitur yang diunggulkan, di antaranya:
 1. Tampilan yang terlihat sederhana, namun tetap modern dan sangat *responsive*
@@ -192,7 +192,7 @@ Namun ada beberapa hal yang perlu diperhatikan sebagai ciri pembeda.
 3. Pada subrion juga rerdapat fitur unik, yaitu adanya fitur *SQL Tools*, tanpa perlu membuka *phpMyAdmin* kita dapat melihat isi *database*-nya
 
 ## Referensi
-[`^ kembali ke atas ^`](#aplikasi-web-pagekit)
+[`^ kembali ke atas ^`](#aplikasi-october)
 
 1. [About | PageKit](https://pagekit.com/about) - PageKit
 2. [CLI | Pagekit](https://pagekit.com/docs/developer/cli) - PageKit
