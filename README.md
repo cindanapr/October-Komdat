@@ -1,4 +1,4 @@
-# Aplikasi Web "PageKit"
+# Aplikasi Web "October-CMS"
 <h1 align="center"><img src="https://pagekit.com/storage/pagekit-logo.svg" width="500px"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
