@@ -49,10 +49,10 @@ sudo service apache2 restart
     
       | Name | Protocol | Host IP | Host Port | Guest IP | Guest Port |
       |:----:|:--------:|:-------:|:---------:|:--------:|:----------:|
-      | http | TCP      |         | 8888      |          | 3000         |
-      | ssh  | TCP      |         | 2222      |          | 20         |
+      | http | TCP      |         | 8000      |          | 80         |
+      | ssh  | TCP      |         | 2222      |          | 22        |
 
-    Dengan demikian, ketika mengakses ``localhost:8888`` di *host*, maka akan diteruskan ke ``localhost:80`` di *guest (VM)*.
+    Dengan demikian, ketika mengakses ``localhost:8000`` di *host*, maka akan diteruskan ke ``localhost:80`` di *guest (VM)*.
     ![9](/port.jpeg)
 - Instal package yang dibutuhkan untuk menginstall **October CMS**
 1. PDO PHP Extension
