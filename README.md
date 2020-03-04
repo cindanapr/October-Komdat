@@ -2,7 +2,7 @@
 ![aplikasi-october](https://raw.githubusercontent.com/cindanapr/october-Komdat/master/october.png)
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) |[Fitur-fitur](#Fitur-fitur) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+
 
 ## Sekilas Tentang 
 [`^ kembali ke atas ^`](#aplikasi-october)
@@ -23,7 +23,36 @@ sudo apt install php7.0-mysql
 sudo apt install php7.0-gd php7.0-mcrypt php7.0-xml php7.0-ssh2
 sudo service apache2 restart
 ```  
+- Instal Virtual Box
+- Instal Web Server Virtual
+	1. **Membuat VM Ubuntu Server**
 
+    Dalam instalasi, digunakan *Ubuntu Server 16.04*. Kemudian, buat *Virtual Machine* baru pada *VirtualBox* dengan tipe "Ubuntu 64-bit".
+    - Jalankan *VirtualBox* lalu klik *New*. Berikan nama bebas, tapi pastikan *version: Ubuntu (64-bit)*.
+    
+      ![1](https://github.com/mhdsuryono/komdat-agar.io/blob/master/1.png)
+      
+    - *Memory Size (RAM)* cukup 8 MB, lalu klik *Use an Existing VH* dan pilih file *ubuntu-server.vdi*. *(Ubuntu Server dapat didownload [disini](https://ubuntu.com/download/server))*, klik *Create*.
+    
+      ![2](https://github.com/mhdsuryono/komdat-agar.io/blob/master/2.png)
+      
+
+	2. **Setting Port-Forwarding**
+
+    *Port-forwarding* berfungsi agar server dapat diakses dari luar melalui alamat host (IP host).
+    - Klik *setting* pada ``Ubuntu Server``, klik *Network*, pilih *Advance*, lalu klik *Port Forwarding*.
+    
+      ![3](https://github.com/mhdsuryono/komdat-agar.io/blob/master/3.png)
+      
+    - Tambah *port* dan atur seperti tabel dibawah ini:
+    
+      | Name | Protocol | Host IP | Host Port | Guest IP | Guest Port |
+      |:----:|:--------:|:-------:|:---------:|:--------:|:----------:|
+      | http | TCP      |         | 8888      |          | 3000         |
+      | ssh  | TCP      |         | 2222      |          | 20         |
+
+    Dengan demikian, ketika mengakses ``localhost:8888`` di *host*, maka akan diteruskan ke ``localhost:80`` di *guest (VM)*.
+    ![9](https://raw.githubusercontent.com/mhdsuryono/komdat-agar.io/master/8.png)
 - Instal package yang dibutuhkan untuk menginstall **October CMS**
 1. PDO PHP Extension
 ```shell
