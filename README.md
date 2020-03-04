@@ -83,6 +83,21 @@ CREATE DATABASE october;
 CREATE USER october IDENTIFIED by 'secret';
 GRANT ALL PRIVILEGES ON october.* TO october;
 ```
+
+7. Atur database, administrator, dan backend environment
+Masuk ke browser dan ketikkan alamat localhost:8000/install.php
+Atur database dan arahkan ke database yang telah dibuat sebelumnya.
+
+![GitHub Logo](/images/Capture1.PNG)
+
+Klik tombol administrator. Masukkan identitas untuk admin: nama, password, dan yang lainnya
+
+![GitHub Logo](/images/Capture2.PNG)
+
+Klik tombol advanced. Masukkan URL untuk mengakses sistem admin.
+
+![GitHub Logo](/images/Capture3.PNG)
+
 	- Selesai! (Tampilan halaman *admin*)
 
 ## Konfigurasi
