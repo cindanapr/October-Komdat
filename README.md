@@ -194,6 +194,6 @@ Kemudian simpan (ctrl+o) dan keluar (ctrl+x)
 ## Referensi
 [`^ kembali ke atas ^`](#aplikasi-october)
 
-1. [About | OctoberCMS](https://www.codepolitan.com/october-cms-berbasis-laravel-sebuah-opsi-lain-untuk-membangun-website) -OctoberCMS
+1. [About | OctoberCMS](https://www.codepolitan.com/october-cms-berbasis-laravel-sebuah-opsi-lain-untuk-membangun-website) - Code Politan
 2. [Installation | OctoberCMS](http://octobercms.com/download) - OctoberCMS
-3. [Installation Virtual Machine](https://github.com/auriza)
+3. [Installation | Virtual Machine](https://github.com/auriza/komdat-lab/blob/master/p01.md) - Github Auriza
