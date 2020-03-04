@@ -1,7 +1,8 @@
 # OctoberCMS
 ![aplikasi-october](https://raw.githubusercontent.com/cindanapr/october-Komdat/master/october.png)
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) |[#Fitur-fitur-yang-ada-di-o-ctober-csm](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) |[#Fitur-fitur(#) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Sekilas Tentang 
@@ -128,108 +129,41 @@ $ sudo nano /etc/apache2/apache2.conf
 ```
 Kemudian simpan (ctrl+o) dan keluar (ctrl+x)
 	
-## Maintenance
+## Fitur-fitur yang ada di october-csm
 [`^ kembali ke atas ^`](#aplikasi-october)
 
-PageKit menyediakan fitur *maintenance* apabila admin web ingin melakukan perbaikan pada situs. 
-1. Pada halaman *dashboard* admin (http://URL/admin/dashboard), klik tombol *hamburger* di pojok kiri atas, kemudian pilih ikon *Site*
-2. Pada halaman *site*, pilih tab *Settings*, kemudian pilih submenu *Maintenance*
-3. Setelah itu, centang *Put the site offline and show the offline message.*, kemudian isikan pesan yang akan ditampilkan untuk memberitahukan bahwa situs sedang ada perbaikan (opsional), lalu tambahkan gambar (opsional).
-4. Terakhir, tekan tombol *Save* kemudian coba akses kembali situsnya (dalam keadaan tidak *login* sebagai admin).
-
-## Cara Pemakaian
-[`^ kembali ke atas ^`](#aplikasi-october)
-
-1. Tampilan aplikasi web
-	1. Tampilan utama (*default*)
-	2. Tampilan halaman blog (*default*)
-	3. *Dashboard admin*
+1. Page Components
+   Fitur ini sangat membantu sekali dalam membangun sebuah page. Di October CMS sudah tersedia beberapa komponen yang sudah siap kamu    gunakan untuk membangun page. Hanya perlu menambahkan sebuah komponen kedalam page kemudian mengkonfigutrasinya dengan Inspector (sebuah visual tool untuk memanage properties dari sebuah komponen di October). You don’t need to program anymore!
+2. Extensible platform
+   Penggunaan plugin yang sederhana
+3. Simple AJAX framework
+   AJAX (Asynchronous JavaScript and XML) merupakan suatu teknik baru dalam dunia web namun bukan merupakan bahasa pemrograman baru. AJAX merupakan teknik pengembangan web untuk membuat suatu aplikasi web interaktif. Tujuannya adalah untuk membuat website agar lebih responsive, sehingga seluruh halaman web tidak harus reload setiap kali pengguna meminta request.
+4. Easy administrative interfaces
+   Dengan tampilan modern, ini bakal bikin Kamu betah menggunakan halaman adminnya
+5. Completely file-based CMS templates
+   Yang menarik lainnya adalah, templating di October CMS adalah file-based, dan ini akan sangat membuat aktivitas theming akan menjadi    lebih mudah.
 	
-2. Fungsi-fungsi utama
-	1. Register *User* Baru
-		* Fungsi ini digunakan apabila ada *guest* yang ingin menjadi penulis blog atau agar dapat menulis komentar di blog. Langkah pertama, lihat *widgets Login* yang terletak di *sidebar* kanan. Kemudian, klik tombol *Sign Up*
-		
-		* Setelah itu, isikan semua *field* yang diberikan
-	
-		* Setalahnya, klik tombol *Sign Up* dan akan muncul pemberitahuan bahwa *user* telah berhasil didaftarkan.
-	
-		* Lakukan login, kemudian akses http://YourURL/admin/.
-	
-	2. Buat Pos
-		* Untuk membuat *post*, di halaman *dashboard admin*, klik *hamburger button* yang terletak di pojok kiri atas, kemudian pilih *Blog*
-	
-		* Setelah itu, klik tombol *Add Post*
-
-		* Isikan *post* yang ingin dibuat, setelah selesai klik tombol *Save*
-	
-	3. Buat *Page* Baru
-		* Untuk membuat *page*, dari halaman *dashboard admin*, klik *hamburger button* yang terletak di pojok kiri atas, kemudian pilih *Site*
-
-		* Setelah itu, klik tombol *Add Page*, kemudian pilih *Page*
-
-		* Isikan *page* yang ingin dibuat sesuai *field* yang tersedia, kemudian klik tombol *Save*
-
-	4. Mengganti Tema
-		* Unduh koleksi tema di halaman *Marketplace* dan pilih tab Tema
-
-		* Pilih salah satu tema, kemudian klik
-
-		* Setelah terunduh, klik tombol *Enable* untuk mengaktifkan tema
-
-		* Tema yang telah terunduh dapat dilihat di halaman *System* dan pilih tab *Theme*
-	
-	5. Menambahkan Widget
-		* Buka halaman *Site* melalui menu di *hamburger button*, kemudian pilih tab *Widgets*
-	
-		* Klik tombol *Add Widgets*
-
-		* Pilih salah satu kategorinya, *Menu* untuk menambahkan *list* halaman, *Text* untuk menambahkan ukiran kata-kata, dan *Link* untuk menambahkan pranala ke halaman lain.
-
-		* Isikan *field* yang perlu isi, kemudian atur tata letaknya di menu *dropdown* sebelah kanan
-
-		* Setelah selesai, klik *Save*. Cek halaman awal apakah *widget* sudah berhasil ditambahkan.
-
-	6. Manajemen *User* dan Mengatur *Permission* berdasarkan *role*
-		* Buka halaman *Users* melalui menu di *hamburger button*
-	
-		* Diberikan *list* *user* yang sudah terdaftar, apabila *role*-nya adalah *admin*, maka ia bisa menghapus/memblokir *user*
-
-		* Untuk mengatur *Permission* untuk *Role* tiap-tiap *user*, klik tab *Permission*.
-		* Di situ, kita bisa memberikan/melepas izin untuk tiap jenis aktivitas yang dapat dilakukan.
-
-
 ## Pembahasan
 [`^ kembali ke atas ^`](#aplikasi-october)
+  -KELEBIHAN\
+1. Di October CMS sudah tersedia beberapa komponen yang sudah siap kamu gunakan untuk membangun page. 
+2. Plugin yang sederhana
+2. Front end ringan dan cepat.
+3. Dengan tampilan modern, ini bakal bikin betah menggunakan halaman adminnya.
+4. Templating di October CMS adalah file-based, dan ini akan sangat membuat aktivitas theming akan menjadi lebih mudah.
 
-Aplikasi web PageKit merupakan CMS yang bisa dikatakan baru, namun memiliki beberapa fitur yang diunggulkan, di antaranya:
-1. Tampilan yang terlihat sederhana, namun tetap modern dan sangat *responsive*
-2. Dibuat menggunakan *framework* Vue.js dan PHP Symfony 
-3. Proses instalasi dan konfigurasi yang mudah dan serba otomatis
-4. Terdapat *file manager* yang berfungsi mengatur *file* apa saja yang diunggah ke server
-5. Terdapat editor teks berupa HTML dan Markdown
-6. Terdapat Pengaturan kontrol *cache*
-7. Personalisasi dan pengaturan halaman situs yang tidak rumit
+  -KEKURANGAN
+1. Theme sangat sedikit. Cuma ada 95 theme (saat thread ini dibuat), dan itupun bercampur antara berbayar dan gratis nya emoticon-Hammer (S).
+2. Komunitas di Indonesia sangat sedikit.
+3. Tidak cocok bagi orang awam karena butuh skill ngoding (Laravel).
+4. Serba manual. 
+5. Super simple.
 
-Namun dibalik beberapa keunggulan PageKit di atas, masih terdapat beberapa kekurangan, di antaranya:
-1. Walaupun dapat dikatakan penggunaanya mudah, tapi untuk mengatur tata letak *widget* yang akan ditampilkan di situs masih menggunakan menu *dropdown*. Tidak seperti wordpress yang memiliki *live preview*. 
-2. Variasi tema dan ekstensi (*plugin*) yang diberikan juga masih sedikit, selain itu kita tidak dapat membuat tema sendiri(kustomisasi) dan hanya dapat menggunakan tema yang disediakan.
 
-### Perbandingan aplikasi PageKit dengan aplikasi web 'Subrion'
-Subrion merupakan CMS yang dapat digunakan mempermudah user dalam membangun situs web. Dengan berbagai macam fitur yang ditawarkan, terdapat beberapa kesamaan dengan aplikasi PageKit, di antaranya:
-1. Aplikasi subrion digunakan untuk membuat situs blog.
-2. Terdapat *storage management* untuk mengatur *file-file* yang terunggah ke server.
-3. Kustomisasi halaman (membuat baru, menghapus, mengubah status (aktif/inaktif/draft)).
-4. Memiliki *user management* lengkap dengan *permission* sesuai *role*-nya.
-
-Namun ada beberapa hal yang perlu diperhatikan sebagai ciri pembeda.
-1. Pada PageKit Halaman *admin* memiliki tampilan yang sederhana (tidak banyak *content* yang ditampilkan dalam suatu halaman), sedangkan Subrion menampilkan banyak *content*.
-2. Pada PageKit hanya terdapat pengaturan HTTPS saja, sedangkan Subrion dilengkapi dengan fitur keamanan di antaranya HTTPS, anti-CSRF, Build-in Captcha).
-3. Pada subrion juga rerdapat fitur unik, yaitu adanya fitur *SQL Tools*, tanpa perlu membuka *phpMyAdmin* kita dapat melihat isi *database*-nya
-
+###
 ## Referensi
 [`^ kembali ke atas ^`](#aplikasi-october)
 
-1. [About | PageKit](https://pagekit.com/about) - PageKit
-2. [CLI | Pagekit](https://pagekit.com/docs/developer/cli) - PageKit
-3. [How To Rewrite URLs with mod_rewrite for Apache on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04) - DigitalOcean
-4. [Installation | PageKit](https://pagekit.com/docs/getting-started/installation) - PageKit
+1. [About | OctoberCMS](https://www.codepolitan.com/october-cms-berbasis-laravel-sebuah-opsi-lain-untuk-membangun-website) -OctoberCMS
+2. [Installation | OctoberCMS](http://octobercms.com/download) - OctoberCMS
+3. [Installation Virtual Machine](https://github.com/auriza)
