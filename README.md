@@ -7,62 +7,82 @@
 ## Sekilas Tentang 
 [`^ kembali ke atas ^`](#aplikasi-october)
 
-PageKit merupakan aplikasi *web content management system*. PageKit digunakan untuk mempermudah pengguna dalam membangun situs web. Pagekit adalah CMS modular dan ringan yang dibangun dengan teknologi modern. Dengan market share kurang dari 0.1% dan 1,465 *website* yang aktif menggunakan CMS ini, menjadikan Pagekit sebagai salah satu CMS untuk *blogging* terpopuler di dunia, tepatnya berada di posisi ke-9 setelah Posthaven. PageKit memiliki beberapa fitur, di antaranya, menyediakan pengaturan untuk membuat halaman baru (contoh: membuat halaman untuk *blog*, mengorganisasi *file*, dan personalisasi *web*).
+OctoberCMS adalah sebuah content management system (CMS) gratis, open source dan self-hosted yang berbasiskan pada bahasa pemrograman PHP dan framework Laravel. Saat ini, OctoberCMS telah mendukung MySQL, SQLite, dan PostgreSQL untuk backend basis data dan basis data flat file untuk struktur front end-nya.
 
 ## Instalasi
-[`^ kembali ke atas ^`](#aplikasi-october)
+[`^ kembali ke atas ^`](#aplikasi-web-pagekit)
 
 #### Kebutuhan
-- Apache 2.2+ atau Nginx
-```
-$ sudo apt install apache2
+- Install apache, mysql, php, dan package lain yang dibutuhkan pada server
+```shell
+sudo apt install apache2
+sudo apt install mysql-server
+sudo apt install php7.0
+sudo apt install libapache2-mod-php
+sudo apt install php7.0-mysql
+sudo apt install php7.0-gd php7.0-mcrypt php7.0-xml php7.0-ssh2
+sudo service apache2 restart
+```  
+
+- Instal package yang dibutuhkan untuk menginstall **October CMS**
+##### PDO PHP Extension
+```shell
+sudo apt-get install php7.0-mysql
+```  
+
+
+- cURL PHP Extension
+```shell
+sudo apt-get install php7.0-curl
+```  
+
+
+- Mbstring PHP Library
+```shell
+sudo apt-get install php7.0-mbstring
 ```
 
-- MySQL Server 5.1+ atau SQLite 3
+- ZipArchive PHP Library
+```shell
+sudo apt-get install php7.0-zip
 ```
-$ sudo apt install mysql-server
-```
-
-- PHP versi 5.5.9+
-```
-$ sudo apt install php
-```
-
-- Ekstensi PHP yang harus aktif: JSON, Session, ctype, Tokenizer, SimpleXML, DOM, mbstring, PCRE 8.0+, ZIP dan PDO dengan *driver* MySQL atau SQLite
-```
-$ sudo apt install libapache2-mod-php
-$ sudo apt install php-mysql
-$ sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
-$ sudo service apache2 restartapt-get install zip unzip
-```
-
-- (*opsional*) Ekstensi PHP: curl, iconv, XML Parser, APC atau XCache untuk *caching*
-```
-$ sudo apt-get install phpmyadmin php-mbstring php-gettext
+- GD PHP Library 
+```shell
+sudo apt-get install php7.0-gd
 ```
 
 #### Cara instalasi
-1. Unduh arsip ZIP instalasi Pagekit dan simpan ke dalam direktori pagekit. 
-```
-$ mkdir pagekit
-$ cd pagekit
-$ wget bit.ly/KomdatAyakOciNisa
+1. Download installation file pada halaman http://octobercms.com/download
+```shell
+sudo wget http://octobercms.com/download
 ```
 
-2. *Unzip* arsip yang sudah terunduh. 
-```
-$ unzip pagekit-1.0.13.zip
-```
-
-3. Pindahkan direktori pagekit ke /var/www/html/ (direktori sekarang "pagekit")
-```
-$ sudo mv ../pagekit/ /var/www/html/
+2. Pindahkan file download ke download.zip
+```shell
+sudo mv download download.zip
 ```
 
-4. Selanjutnya buka http://localhost (localhost -> alamat IP atau URL kamu). Selanjutnya ikuti langkah-langkah untuk konfigurasi.
-	- Pengaturan Bahasa
-	- Konfigurasi Database
-	- Pengaturan Informasi Situs
+3. Ekstrak file download.zip
+```shell
+sudo unzip download.zip
+```
+
+4. Copy semua file yang berada pada folder "install-master" dan masukkan ke "/var/www/html/"
+```shell
+sudo cp -r ~/install-master/* /var/www/html/
+```
+
+5. Setting permission dan ganti kepemilikan dari folder "/var/www/html/"
+```shell
+sudo chown -R www-data:www-data /var/www/html/
+sudo chmod -R 755 /var/www/html/
+```
+6. Buat database baru untuk October CMS di mysql dan ubah status kepemilikannya
+```shell
+CREATE DATABASE october;
+CREATE USER october IDENTIFIED by 'secret';
+GRANT ALL PRIVILEGES ON october.* TO october;
+```
 	- Selesai! (Tampilan halaman *admin*)
 
 ## Konfigurasi
