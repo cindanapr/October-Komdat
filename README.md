@@ -1,4 +1,4 @@
-# Aplikasi Web "October-CMS"
+# OctoberCMS
 ![aplikasi-october](https://raw.githubusercontent.com/cindanapr/october-Komdat/master/october.png)
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
